@@ -63,6 +63,26 @@ require_once('db.php')
         <button type="submit" class="btn btn-info btn-block">Sign In</button>
       </form>
 
+     <div class="demo my-2">
+        <h5 class="text-center">Demo User Login Details</h5>
+        <div class="table-responsive">
+          <table class="table table-primary">
+            <thead>
+              <tr>
+                <th>Email</th>
+                <th>Password</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>admin@email.com</td>
+                <td>12345678</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
       <div class="mg-t-60 tx-center">If you not an authorized person? Please don't try to sign in.</div>
     </div><!-- login-wrapper -->
   </div><!-- d-flex -->
